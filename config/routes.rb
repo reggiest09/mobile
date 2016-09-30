@@ -23,10 +23,11 @@ Rails.application.routes.draw do
    # mount TolSkitSessionsTwitter::Engine => "sessions/twitter"
     #mount TolSkitSessionsInstagram::Engine => "sessions/instagram"
     
-    resources :users
-    resources :listings
+    
     resources :admin_sessions, only: [:create]
     resources :admin_users, only: [:show]
+    resources :users
+    resources :listings
   end
 
   # routes for locale change
