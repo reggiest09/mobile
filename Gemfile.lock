@@ -26,13 +26,6 @@ GIT
       railties (>= 3.2, < 5)
       responders
 
-GIT
-  remote: https://github.com/getsentry/raven-ruby.git
-  revision: f64e7ec69621dc9108f8ab206de814584ad6164c
-  specs:
-    sentry-raven (0.14.0)
-      faraday (>= 0.7.6)
-
 GEM
   remote: https://rubygems.org/
   remote: https://THq8z2w-sW925RjWBgYU@gem.fury.io/takeofflabs/
@@ -476,7 +469,6 @@ DEPENDENCIES
   rspec-rails
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
-  sentry-raven!
   spring
   tol
   tol_skit_sessions

@@ -51,7 +51,7 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
 
 # Raven is a Ruby client for Sentry
-gem "sentry-raven", git: "https://github.com/getsentry/raven-ruby.git"
+#gem "sentry-raven", git: "https://github.com/getsentry/raven-ruby.git"
 
 # Authorization
 gem 'cancancan'
